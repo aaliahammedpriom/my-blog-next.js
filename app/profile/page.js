@@ -17,6 +17,6 @@ export default async function Page() {
             </div>
         );
     }
-    redirect('/login');
+    redirect('/api/auth/login?post_login_redirect_url=/dashboard')
 
 }
