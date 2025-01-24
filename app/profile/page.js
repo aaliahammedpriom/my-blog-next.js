@@ -17,6 +17,6 @@ export default async function Page() {
             </div>
         );
     }
-    redirect('https://blognavigator.kinde.com/auth/cx/_:nav&m:login&psid:019495d548c01d239feb890e49e29e3a');
+    redirect('/login');
 
 }
